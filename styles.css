@@ -23,10 +23,5 @@ p {
   margin: 48px;
   padding: 60px 20px 40px 80px;
   border: 5px solid blue;
-}
-
-#inner {
-  background-color: lightcoral;
-  border: 2px solid green;
-  height: 50%;
+  border-radius: 50px 0px 0px 0px;
 }
