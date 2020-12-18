@@ -1,3 +1,19 @@
-.d-1 > p {
-  color: green;
+#outer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  vertical-align: middle;
+}
+
+.inner {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  background-color: brown;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
