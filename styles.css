@@ -1,44 +1,9 @@
-body {
-  height: 100vh;
-  margin: 0;
-  /* margin reset for the body */
-  font-size: 48px;
-  color: aqua;
-}
-
 h3 {
-  margin: 0;
+  color: blue;
 }
 
-p {
-  margin: 0;
-}
-
-/* div {
-  background-color: teal;
-  height: 20%;
-} */
-
-#outer {
-  /* CSS supports, hex, rgb, rgba, hsl, hsla formats for colors */
-  /* colors are interchangeable with other formats*/
-  /* by far, hex and rgb are most popular */
-  /* transparency is introduced by using alpha channel using rgba or hsla */
-  /* transparency cannot be set in hex */
-  background-color: rgb(201, 158, 42);
-  height: 40%;
-  margin: 0.5rem;
-  padding: 60px 20px 40px 80px;
-  border: 5px solid blue;
-  border-radius: 50px 0px 0px 0px;
-  font-size: 32px;
-  color: red;
-}
-
-p {
-  color: green;
-}
-
-#p-tag {
-  color: indigo;
+.header-1 {
+  color: rebeccapurple;
+  background-color: grey;
+  height: 40px;
 }
