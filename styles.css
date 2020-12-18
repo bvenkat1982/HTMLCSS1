@@ -9,3 +9,13 @@ h3 {
   padding: 2rem;
   color: rgb(11, 64, 92);
 }
+
+li,
+p {
+  color: green;
+}
+
+#topic-1,
+.topic-2 {
+  color: red;
+}
