@@ -4,6 +4,14 @@ body {
   /* margin reset for the body */
 }
 
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 /* div {
   background-color: teal;
   height: 20%;
@@ -13,5 +21,12 @@ body {
   background-color: lightblue;
   height: 40%;
   margin: 48px;
-  border-left: 20px solid blue;
+  padding: 60px 20px 40px 80px;
+  border: 5px solid blue;
+}
+
+#inner {
+  background-color: lightcoral;
+  border: 2px solid green;
+  height: 50%;
 }
