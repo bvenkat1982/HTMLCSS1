@@ -1,5 +1,7 @@
 body {
   height: 100vh;
+  margin: 0;
+  /* margin reset for the body */
 }
 
 /* div {
@@ -9,14 +11,7 @@ body {
 
 #outer {
   background-color: teal;
-  height: 30%;
-  width: 50%;
-}
-
-#inner {
-  background-color: wheat;
-  height: 20%;
-
-  width: 30%;
-  /* of the parent! */
+  height: 40%;
+  margin: 48px;
+  border: 2px solid red;
 }
