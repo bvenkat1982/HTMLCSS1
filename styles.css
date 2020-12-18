@@ -2,8 +2,10 @@ h3 {
   color: blue;
 }
 
-.header-1 {
-  color: rebeccapurple;
-  background-color: grey;
-  height: 40px;
+.notification {
+  background-color: rgb(184, 231, 255);
+  border-left: 0.5rem solid rgb(32, 112, 153);
+  height: 2rem;
+  padding: 2rem;
+  color: rgb(11, 64, 92);
 }
