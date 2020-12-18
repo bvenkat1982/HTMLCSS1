@@ -33,5 +33,7 @@ p {
 }
 
 #para {
-  font-size: 1em;
+  font-size: 1ch;
+  /* ch is zero's width of the parent
+  ex is x-height of the parent */
 }
