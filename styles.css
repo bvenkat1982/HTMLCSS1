@@ -2,39 +2,36 @@ body {
   margin: 0;
 }
 
-.card {
-  background-color: beige;
+.navbar {
+  background-color: lightblue;
+  padding: 0.5rem;
+}
+
+.navbar::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.nav-item {
+  height: 1rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  width: 3rem;
+  margin: 0rem 1rem;
+  float: right;
+  line-height: 1rem;
+}
+
+.nav-item > a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: inline-block;
-  width: 25%;
-  margin: 2rem;
-  text-align: start;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  color: #666;
 }
 
-.card > .card-header {
-  background-color: #ddd;
-  text-shadow: 0.1rem 0.1rem 0.1rem #ddd;
-  padding: 1rem;
-}
-
-.card-header > h3 {
-  text-shadow: 0.1rem 0.1rem 0.1rem #ddd;
-  margin: 0.5rem 0rem;
-}
-
-.card > .card-footer {
-  font-size: 0.7rem;
-}
-
-.card-body {
-  padding: 1rem;
-}
-
-.card-body > hr {
-  border: 0.5px inset #ddd;
-}
-
-.card-container {
-  text-align: center;
-  padding: 1rem 3rem;
+.nav-item > a:hover {
+  color: #222;
 }
