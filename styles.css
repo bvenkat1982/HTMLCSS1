@@ -1,69 +1,55 @@
 body {
   margin: 0;
-  padding: 3rem;
 }
 
-.alert-container {
-  border: 1px solid #777;
-  border-radius: 1rem;
-  width: 40%;
-}
-
-.alert-header {
+.wrapper {
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.alert-footer {
+.page-container {
+  flex-grow: 1;
+  background-color: lightcoral;
   display: flex;
-  justify-content: flex-end;
-  padding: 1rem;
 }
 
-.alert-container hr {
-  margin: 0;
-}
-
-.alert-header h2,
-p {
-  margin: 0.5rem 0rem;
-}
-
-.alert-title {
+nav {
+  height: 3rem;
+  background-color: rgb(66, 135, 245);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0.5rem;
 }
 
-.alert-title > h2 {
+nav > h2 {
+  margin: 0rem 1rem;
 }
 
-.alert-body {
-  padding: 1rem;
+.left-sidenav {
+  width: 15%;
+  background-color: lightgreen;
 }
 
-.alert-body > p {
-  text-align: justify;
+.right-sidenav {
+  width: 15%;
+  background-color: grey;
 }
 
-.customer-details {
-  border-left: 1px solid #777;
-  padding-left: 1rem;
+main {
+  background-color: indigo;
+  flex-grow: 4.66;
 }
 
-.alert-footer > button {
-  background-color: teal;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
-  color: white;
-  outline: none;
-  border: none;
-  margin: 0rem 0.5rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0.05rem 0.08rem 0.2rem 0rem #ccc;
+@media screen and (max-width: 730px) {
+  .right-sidenav {
+    display: none;
+  }
 }
 
-.alert-footer > button:hover {
-  background-color: rgb(12, 151, 151);
+@media screen and (max-width: 600px) {
+  .left-sidenav {
+    display: none;
+  }
 }
