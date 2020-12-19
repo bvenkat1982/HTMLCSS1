@@ -1,4 +1,4 @@
-.button {
+.btn {
   padding: 0.3rem 1rem;
   border-radius: 0.3rem;
   background-color: rgb(80, 43, 114);
@@ -12,6 +12,6 @@
   text-decoration: none;
 }
 
-.button:hover {
+.btn:hover {
   background-color: rgb(131, 83, 175);
 }
