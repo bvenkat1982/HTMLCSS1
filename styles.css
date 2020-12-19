@@ -1,17 +1,40 @@
-.btn {
-  padding: 0.3rem 1rem;
-  border-radius: 0.3rem;
-  background-color: rgb(80, 43, 114);
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-style: none;
-  outline: none;
-  box-shadow: 0rem 0.07rem 0.1rem 0.1rem #aaa;
-  margin: 0.5rem;
-  display: inline-block;
-  text-decoration: none;
+body {
+  margin: 0;
 }
 
-.btn:hover {
-  background-color: rgb(131, 83, 175);
+.card {
+  background-color: beige;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  width: 25%;
+  margin: 2rem;
+  text-align: start;
+}
+
+.card > .card-header {
+  background-color: #ddd;
+  text-shadow: 0.1rem 0.1rem 0.1rem #ddd;
+  padding: 1rem;
+}
+
+.card-header > h3 {
+  text-shadow: 0.1rem 0.1rem 0.1rem #ddd;
+  margin: 0.5rem 0rem;
+}
+
+.card > .card-footer {
+  font-size: 0.7rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-body > hr {
+  border: 0.5px inset #ddd;
+}
+
+.card-container {
+  text-align: center;
+  padding: 1rem 3rem;
 }
