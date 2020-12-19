@@ -35,3 +35,26 @@ body {
 .nav-item > a:hover {
   color: #222;
 }
+
+.logo-holder {
+  float: left;
+  margin: 0rem 1rem;
+}
+
+.logo-holder > h2 {
+  margin: 0rem;
+  display: inline-block;
+  font-weight: 200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  background-image: url('flower.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 2.5rem;
+  width: 2.5rem;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
